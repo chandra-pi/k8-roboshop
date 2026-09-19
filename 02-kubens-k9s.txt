@@ -1,0 +1,19 @@
+kubens
+
+########## run the below commands in EC2 instance to install kubens #############
+
+https://github.com/ahmetb/kubectx
+
+git clone https://github.com/ahmetb/kubectx /opt/kubectx
+sudo ln -s /opt/kubectx/kubens /usr/local/bin/kubens
+
+
+
+
+############## k9s 
+
+########### k9s commnands to install in EC2 instance ###############
+
+
+curl -sS https://webinstall.dev/k9s | bash
+
